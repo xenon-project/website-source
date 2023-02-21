@@ -9,7 +9,7 @@ hero:
   text: Card-style theme designed for bloggers
   image:
     src: /hero.png
-    alt: Stack
+    alt: logo
   actions:
     - theme: brand
       text: Get Started
