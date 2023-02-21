@@ -1,21 +1,31 @@
 ---
 layout: home
 
-title: Xenon Proejct
-titleTemplate: Privacy matters...
+title: Xenon Project
+titleTemplate: Card-style Hugo theme designed for bloggers
 
 hero:
-  name: Xenon Proejct
-  text: #
-  tagline: Privacy matters...
+  name: Xenon Project
+  text: Card-style theme designed for bloggers
   image:
-    src: /logo.png
-    alt: logo
+    src: /hero.png
+    alt: Stack
   actions:
     - theme: brand
-      text: Our Apps
-      link: /apps/
+      text: Get Started
+      link: /guide/getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/Xenon-project
+
+features:
+  - title: Who we are? 
+    details: We are just a group of ambitious individuals who are just starting out in the world of app development.
+    icon: 🤔
+  - title: Our Mission
+    details: Our Mission is to create apps that prioritize user security.
+    icon: 🎯
+  - title: Want to contriute?
+    details: If you have any ideas suggest us. 
+    icon: 💁
 ---
