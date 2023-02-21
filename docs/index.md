@@ -6,14 +6,15 @@ titleTemplate: Card-style Hugo theme designed for bloggers
 
 hero:
   name: Xenon Project
-  text: Card-style theme designed for bloggers
-  image:
-    src: /hero.png
-    alt: logo
+  tagline: Privacy matters...
+#  text: Card-style theme designed for bloggers
+#  image:
+#    src: /hero.png
+#    alt: logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/getting-started
+      text: Our Apps
+      link: /apps/
     - theme: alt
       text: View on GitHub
       link: https://github.com/Xenon-project
@@ -25,7 +26,7 @@ features:
   - title: Our Mission
     details: Our Mission is to create apps that prioritize user security.
     icon: 🎯
-  - title: Want to contriute?
+  - title: Want to contribute?
     details: If you have any ideas suggest us. 
     icon: 💁
 ---

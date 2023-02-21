@@ -36,11 +36,11 @@ export default defineConfig({
 
         nav: [
             { text: 'Apps', link: '/apps/' },
-            { text: 'Docs', link: '/docs/' },
+            { text: 'Docs', link: '/docs/helium/' },
         ],
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/CaiJimmy/hugo-theme-stack' },
+            { icon: 'github', link: 'https://github.com/Xenon-project' },
             { icon: 'twitter', link: 'https://twitter.com/XenonTeam_' },
 
         ],
@@ -50,26 +50,33 @@ export default defineConfig({
 function sidebarGuide() {
     return [
         {
-            text: 'Docs',
-            collapsible: false,
+            text: 'Helium',
+            collapsible: true,
             items: [
                 {
-                    text: 'Introduction',
-                    link: '/docs/'
+                    text: 'Download',
+                    link: '/docs/helium/'
                 },
                 {
-                    text: 'Site Configs',
-                    link: '/docs/site'
+                    text: 'Build from source',
+                    link: '/docs/helium/build-from-source'
                 },
-                {
-                    text: 'i18n Configs',
-                    link: '/docs/i18n'
-                },
-                {
-                    text: 'Custom Menu',
-                    link: '/docs/menu'
-                },
+		{
+                    text: 'Contribute',
+                    link: '/docs/helium/contribute'
+                }
             ]
         },
+	{
+            text: 'Xenon Music Player',
+            collapsible: true,
+            items: [
+                {
+                    text: 'Xenon Music Player end of support',
+                    link: '/docs/xenon-music/end'
+                }
+            ]
+        }
+
     ]
 }
