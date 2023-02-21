@@ -31,14 +31,12 @@ export default defineConfig({
         },
 
         sidebar: {
-            '/apps/': sidebarGuide(),
-            '/config/': sidebarGuide(),
-            '/writing/': sidebarGuide(),
+            '/docs/': sidebarGuide()
         },
 
         nav: [
             { text: 'Apps', link: '/apps/' },
-            { text: 'Config', link: '/config/' },
+            { text: 'Docs', link: '/docs/' },
         ],
 
         socialLinks: [
@@ -52,28 +50,8 @@ export default defineConfig({
 function sidebarGuide() {
     return [
         {
-            text: 'Introduction',
-            collapsible: true,
-            items: [
-                { text: 'About Stack', link: '/apps/' },
-                { text: 'Getting Started', link: '/apps/getting-started' },
-                { text: 'Modify Theme', link: '/apps/modify-theme' }
-            ]
-        },
-        {
-            text: 'Writing',
-            collapsible: true,
-            items: [
-                { text: 'Markdown', link: '/writing/markdown' },
-                {
-                    text: 'Frontmatter Configs', link: '/writing/frontmatter'
-                },
-                { text: 'Shortcodes', link: '/writing/shortcodes' },
-            ]
-        },
-        {
-            text: 'Config',
-            collapsible: true,
+            text: 'Docs',
+            collapsible: false,
             items: [
                 {
                     text: 'Introduction',
