@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'en-US',
     title: 'Xenon Project',
-    lastUpdated: true,
+    lastUpdated: false,
 
     head: [
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
@@ -13,7 +13,6 @@ export default defineConfig({
         ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
         ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
         ['meta', { name: 'theme-color', content: '#ffffff' }],
-        ['script', { defer: "true", "data-domain": "stack.jimmycai.com", src: 'https://stat.jimmycai.com/js/include.js' }],
     ],
 
     markdown: {

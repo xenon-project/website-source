@@ -23,13 +23,13 @@ after installing node js and git on your computer you have to
   npm install
   ```
 
-3. Run
+4. Run
 
   ```bash
   npm start
   ```
 
-4. Build
+5. Build
 
   ```bash
   npm run build

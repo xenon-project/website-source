@@ -2,7 +2,7 @@
 layout: home
 
 title: Xenon Project
-titleTemplate: Card-style Hugo theme designed for bloggers
+titleTemplate: Privacy matters...
 
 hero:
   name: Xenon Project
