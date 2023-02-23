@@ -23,7 +23,7 @@ export default defineConfig({
     cleanUrls: 'with-subfolders',
 
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/hero.png',
 
         footer: {
             copyright: "Copyright © 2023 Xenon Team All Rights Reserved.",
@@ -34,9 +34,15 @@ export default defineConfig({
         },
 
         nav: [
-            { text: 'Apps', link: '/apps/' },
-            { text: 'Docs', link: '/docs/helium/' },
-        ],
+        {
+        text: 'Apps',
+        items: [
+          { text: 'Helium', link: '/docs/helium/' },
+          { text: 'Xenon Music Player', link: '/docs/xenon-music/end' }
+         ]
+        },
+	{ text: 'Docs', link: '/docs/helium/' }
+           ],
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Xenon-project' },
