@@ -37,11 +37,10 @@ export default defineConfig({
         {
         text: 'Apps',
         items: [
-          { text: 'Helium', link: '/docs/helium/' },
           { text: 'Xenon Music Player', link: '/docs/xenon-music/end' }
          ]
         },
-	{ text: 'Docs', link: '/docs/helium/' }
+	{ text: 'Docs', link: '/docs/xenon-music/end' }
            ],
 
         socialLinks: [
@@ -54,24 +53,6 @@ export default defineConfig({
 
 function sidebarGuide() {
     return [
-        {
-            text: 'Helium',
-            collapsible: true,
-            items: [
-                {
-                    text: 'Download',
-                    link: '/docs/helium/'
-                },
-                {
-                    text: 'Build from source',
-                    link: '/docs/helium/build-from-source'
-                },
-		{
-                    text: 'Contribute',
-                    link: '/docs/helium/contribute'
-                }
-            ]
-        },
 	{
             text: 'Xenon Music Player',
             collapsible: true,
