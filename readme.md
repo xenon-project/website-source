@@ -2,7 +2,7 @@
   <p>
       <img style="width: 125px;" src="https://avatars.githubusercontent.com/xenon-project">
   </p>
-  <h2> Xenon Project </h2>
+  <h2> Xenon  </h2>
 
 
 </div>
@@ -16,11 +16,10 @@
 
 
 ```bash 
-git https://github.com/xenon-project/xenon-project.github.io.git
-```
+git https://github.com/xenon-project/website-source.git
 
 ```bash 
-cd xenon-project.github.io
+cd website-source
 ```
 
 ```bash 
