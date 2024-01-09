@@ -26,7 +26,7 @@ export default defineConfig({
         logo: '/hero.png',
 
         footer: {
-            copyright: "Copyright © 2023 Xenon Team All Rights Reserved.",
+            copyright: "<a>&copy; <script>document.write(new Date().getFullYear())</script> Xenon Team All Rights Reserved.</a>",
         },
 
         sidebar: {
