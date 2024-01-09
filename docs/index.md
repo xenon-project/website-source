@@ -31,8 +31,3 @@ features:
     icon: 💁
 ---
 
-
-<div align="center">
-
-<iframe src="https://status.sharukhi.xyz/badge?theme=light" allowtransparency="true" width="250" height="30" frameborder="0" scrolling="no"></iframe>
-</div>
