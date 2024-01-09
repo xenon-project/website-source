@@ -30,3 +30,9 @@ features:
     details: If you have any ideas suggest us or you can contribute to our open source projects. 
     icon: 💁
 ---
+
+
+<div align="center">
+
+<iframe src="https://status.sharukhi.xyz/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no"></iframe>
+</div>
