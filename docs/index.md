@@ -27,6 +27,6 @@ features:
     details: Our Mission is to make technology more accessible, secure and privacy-friendly.
     icon: 🎯
   - title: Want to contribute?
-    details: If you have any ideas [suggest us](mailto:xenon.team@skiff.com) or you can contribute to our open source projects. 
+    details: If you have any ideas suggest us or you can contribute to our open source projects. 
     icon: 💁
 ---
