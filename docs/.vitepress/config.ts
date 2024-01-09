@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
     lang: 'en-US',
-    title: 'Xenon Project',
+    title: 'Xenon',
     lastUpdated: false,
 
     head: [
