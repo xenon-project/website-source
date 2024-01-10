@@ -35,7 +35,7 @@ export default defineConfig({
 
         nav: [
         {
-        text: 'Apps',
+        text: 'Projects',
         items: [
           { text: 'Xenon Music Player', link: '/docs/xenon-music/end' }
          ]
