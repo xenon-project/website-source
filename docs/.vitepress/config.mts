@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Xenon",
-  description: "Privacy matters...",
+  description: "Privacy for everyone",
   lang: 'en-US',
   lastUpdated: false,
 
