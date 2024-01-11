@@ -1,5 +1,5 @@
 {
-    "name": "xenon-project",
+	"name": "xenon-project",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -11,15 +11,14 @@
     "keywords": [],
     "author": "",
     "license": "MIT",
-    "devDependencies": {
-        "vitepress": "1.0.0-alpha.22",
-        "vue": "^3.4.8"
-    },
     "pnpm": {
         "peerDependencyRules": {
             "ignoreMissing": [
                 "@algolia/client-search"
             ]
         }
-    }
+    },
+	"devDependencies": {
+		"vitepress": "1.0.0-rc.36"
+	}
 }
