@@ -28,7 +28,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/hero.png',
     footer: {
-      copyright: "<a>&copy; <script>document.write(new Date().getFullYear())</script> Xenon Team All Rights Reserved.</a>",
+      copyright: "&copy; Xenon Team All Rights Reserved.",
   },
 
   sidebar: {
