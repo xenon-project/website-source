@@ -10,10 +10,10 @@
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
-        "vitepress": "1.0.0-alpha.22",
-        "vue": "^3.2.41"
+        "vitepress": "1.0.0-alpha.64",
+        "vue": "^3.4.8"
     },
     "pnpm": {
         "peerDependencyRules": {
