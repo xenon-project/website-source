@@ -33,7 +33,7 @@ features:
   - title: Want to contribute?
     details: If you have any ideas suggest us or you can contribute to our open source projects.
     icon: 
-      dark: /con.png
+      dark: /puzzle_wh.png
       light: /con-d.png
 ---
 
