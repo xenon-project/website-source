@@ -47,7 +47,7 @@ export default defineConfig({
 
   socialLinks: [
       { icon: 'github', link: 'https://github.com/Xenon-project' },
-      { icon: 'twitter', link: 'https://twitter.com/XenonTeam_' },
+      { icon: 'twitter', link: 'https://twitter.com/xenon_labs_' },
 
   ],
 },
